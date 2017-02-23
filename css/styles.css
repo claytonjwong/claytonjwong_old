@@ -1,5 +1,25 @@
+h1 {
+	font-family: "Sans Open", monospace;
+	font-size: 4em;
+	font-weight: bold;
+}
+h2 {
+	font-family: "Sans Open", monospace;
+	font-size: 1.5em;
+	font-weight: lighter;
+	padding: 0px 10px 50px 10px;
+}
+.bgimage {
+	background-image: url('https://openclipart.org/download/243811/Binary-Earth-Map.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
 .nav_link {
 	vertical-align: middle;
-
+	font-family: "Sans Open", monospace;
 }
-
+.main {
+	padding: 100px 10px 200px 10px;
+	vertical-align: middle;
+	font-family: "Sans Open", monospace;
+}
