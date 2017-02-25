@@ -4,9 +4,7 @@ h1 {
 	font-weight: bold;
 }
 h2 {
-	font-family: "Sans Open", monospace;
-	font-size: 1.5em;
-	font-weight: lighter;
+	font-family: "Source Code Pro", "Sans Open", monospace;
 	padding: 0px 10px 50px 10px;
 }
 .bgimage {
@@ -19,7 +17,13 @@ h2 {
 	font-family: "Sans Open", monospace;
 }
 .main {
-	padding: 100px 10px 200px 10px;
+	padding: 50px 10px 200px 10px;
 	vertical-align: middle;
 	font-family: "Sans Open", monospace;
+}
+
+@media (min-width: 768px) {
+	.img-responsive {
+		max-width: 60%;
+	}
 }
