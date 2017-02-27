@@ -17,7 +17,7 @@ h2 {
 	font-family: "Sans Open", monospace;
 }
 .main {
-	padding: 50px 10px 200px 10px;
+	padding: 50px 10px 250px 10px;
 	vertical-align: middle;
 	font-family: "Sans Open", monospace;
 }
@@ -26,4 +26,17 @@ h2 {
 	.img-responsive {
 		max-width: 60%;
 	}
+}
+
+.divider {
+  height: 1px;
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+.bottom {
+	padding-top: 100px;
 }
