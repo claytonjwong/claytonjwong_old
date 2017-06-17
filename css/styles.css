@@ -40,3 +40,14 @@ h2 {
 .bottom {
 	padding-top: 100px;
 }
+
+ .banner {
+  height: 400px;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("/img/banner.jpg");
+  background-size: cover;
+}
